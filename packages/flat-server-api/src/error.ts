@@ -47,6 +47,7 @@ export enum RequestErrorCode {
     UserPasswordIncorrect, // user password (for update) incorrect
     UserOrPasswordIncorrect, // user or password (for login) incorrect
     UserPmiDrained, // user pmi drained
+    UserBlacklisted, // user is blacklisted, login/register rejected
 
     RecordNotFound = 500000,
 
@@ -142,6 +143,7 @@ export const RequestErrorMessage = {
     [RequestErrorCode.UserPasswordIncorrect]: "user-password-incorrect",
     [RequestErrorCode.UserOrPasswordIncorrect]: "user-account-or-password-incorrect",
     [RequestErrorCode.UserPmiDrained]: "user-pmi-drained",
+    [RequestErrorCode.UserBlacklisted]: "user-blacklisted",
 
     [RequestErrorCode.RecordNotFound]: "replay-does-not-exist",
 

@@ -598,6 +598,7 @@
   "wait-for-teacher-to-enter": "The room hasn't started yet. Please wait for the teacher to enter",
   "the-pmi-room-already-exists": "The PMI room already exists",
   "user-pmi-drained": "User PMI used up, please contact the administrator",
+  "user-blacklisted": "This account has been frozen. Please contact the administrator",
   "pmi-room-exist": "PMI room already exists, please cancel existing PMI room first",
   "pmi-help": "Your own room number, you can use this fixed number to create a room",
   "personal-room-id": "PMI",

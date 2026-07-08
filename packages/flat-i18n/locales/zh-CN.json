@@ -598,6 +598,7 @@
   "wait-for-teacher-to-enter": "房间未开始，请等待老师进入",
   "the-pmi-room-already-exists": "PMI房间已存在",
   "user-pmi-drained": "用户PMI已分配完，请联系管理员",
+  "user-blacklisted": "该账号已被冻结，请联系管理员",
   "pmi-room-exist": "个人房间已存在，请先取消已存在的房间",
   "pmi-help": "你的专属房间号，可使用该固定号码创建房间",
   "personal-room-id": "个人房间号",
